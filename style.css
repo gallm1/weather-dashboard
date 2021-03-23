@@ -1,0 +1,38 @@
+h2 {
+    width: 100%;
+    background-color: darkslategrey; 
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.fiveDayColor {
+    padding: 20px;
+    background-color: darkslategrey;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
