@@ -1,6 +1,6 @@
 var searchButton = $(".searchButton");
 
-var apiKey = "ced04e7bcfda6a494df8b94828af7986";
+var api = "ced04e7bcfda6a494df8b94828af7986";
 
 for (var i = 0; i < localStorage.length; i++) {
 
@@ -18,9 +18,9 @@ searchButton.click(function () {
     var searchInput = $(".searchInput").val();
 
     // Variable for current weather working 
-    var urlCurrent = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
+    var urlCurrent = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput + "&Appid=" + api + "&units=imperial";
     // Variable for 5 day forecast working
-    var urlFiveDay = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
+    var urlFiveDay = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchInput + "&Appid=" + api + "&units=imperial";
 
 
     if (searchInput == "") {
